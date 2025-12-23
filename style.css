@@ -1,0 +1,49 @@
+body {
+  background: black;
+  color: #00ff88;
+  font-family: monospace;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card, .panel {
+  border: 2px solid #00ff88;
+  box-shadow: 0 0 15px #00ff88;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background: black;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+}
+
+button:hover {
+  background: #00ff88;
+  color: black;
+  cursor: pointer;
+}
+
+.correct { color: #00ff88; }
+.wrong { color: red; }
+
+.difficulty-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
